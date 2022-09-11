@@ -2,7 +2,7 @@
 
 Distributed tracing with Rust, Actix, Lapin with context propagation between multiple services.
 
-More [on this article](http://google.com).
+More [on this article](https://medium.com/@rlebran_73897/b8eb2af3aff4).
 
 ## Start the services:
 
