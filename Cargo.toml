@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "common",
+    "service1",
+    "service2"
+]

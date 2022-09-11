@@ -1,0 +1,19 @@
+version: '3'
+services:
+  postgresql:
+    build:
+      context: ./db
+      dockerfile: ./Dockerfile
+    ports:
+      - '5432:5432'
+
+  rabbitmq:
+    image: rabbitmq:management
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+
+  zipkin:
+    image: openzipkin/zipkin
+    ports:
+      - '9411:9411'
