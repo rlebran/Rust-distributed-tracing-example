@@ -6,7 +6,7 @@ More [on this article](http://google.com).
 
 ## Start the services:
 
-First, start postgres and rabbit with docker compose:
+First, start postgres, rabbit and zipkin with docker compose:
 - `DOCKER_BUILDKIT=1 docker-compose -f docker-compose.yml up --build`
 
 Then start both services:
